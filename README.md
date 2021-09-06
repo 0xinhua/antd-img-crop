@@ -1,4 +1,6 @@
-# antd-img-crop
+# antd-img-cropper
+
+This is a repo fork from [antd-img-crop](https://github.com/nanxiaobei/antd-img-crop) for skipping gif type and resolve file
 
 An image cropper for Ant Design [Upload](https://ant.design/components/upload/).
 
@@ -16,7 +18,7 @@ English | [简体中文](./README.zh-CN.md)
 ## Install
 
 ```sh
-yarn add antd-img-crop
+yarn add antd-img-cropper
 
 # npm install antd-img-crop
 ```
@@ -24,7 +26,7 @@ yarn add antd-img-crop
 ## Usage
 
 ```jsx harmony
-import ImgCrop from 'antd-img-crop';
+import ImgCrop from 'antd-img-cropper';
 import { Upload } from 'antd';
 
 const Demo = () => (

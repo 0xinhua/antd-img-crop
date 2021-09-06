@@ -211,8 +211,8 @@ const ImgCrop = forwardRef((props, ref) => {
         beforeUpload: (file, fileList) => {
           return new Promise(async (resolve, reject) => {
             if (beforeCrop && !(await beforeCrop(file, fileList))) {
-              reject();
-              return;
+              // reject();
+              return resolve(file);
             }
 
             fileRef.current = file;
